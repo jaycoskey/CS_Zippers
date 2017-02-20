@@ -27,7 +27,7 @@
 11. [Clowns to the left of me, jokers to the right (Dissecting Data Structures), by Conor McBride](http://strictlypositive.org/Dissect.pdf) 
   * Formal approach.
 
-## Implementing Zippers
+## Implementing zippers
 
 12. [Several papers on implementing zippers as delimited continuations, by Oleg Kiselyov](http://okmij.org/ftp/continuations/zipper.html)
   * Kiselyov's implementation is fundamentally different from that of Huet/McBride.  Kiselyov treats derivatives not as data types, but as traversal functions using CPS (Continuation Passing Style).
@@ -35,7 +35,7 @@
 14. ["Generic Haskell: practice and theory", by Ralph Hinze and Johan Jeuring](http://www.cs.uu.nl/research/techreps/repo/CS-2003/2003-015.pdf)
   * Create derivative types at runtime using a custom Haskell build.  Also, see [Exploring Generic Haskell, a thesis by Andres Löh](https://www.andres-loeh.de/ExploringGH.pdf)
 
-## Applications of Zippers
+## Applications of zippers
 
 15. [xmonad](http://xmonad.org/): "The tiling window manager that rocks" 
 16. [Zipper-based file server/OS](http://okmij.org/ftp/continuations/zipper.html#zipper-fs) [ZFS]
@@ -44,7 +44,7 @@
 17. [Strengthening the Zipper, by Tristan Allwood and Susan Eisenbach](https://www.doc.ic.ac.uk/~tora/clase/CLASE-Medium.pdf)
   * A zipper-based tool to traverse heterogeneous data types: specifically, Haskell expressions. 
 
-## Zippers & Taylor Series
+## Zippers & Taylor series
 
 18. ["A Taylor Series for Types", by Dan Piponi](http://blog.sigfpe.com/2006/06/taylor-series-for-types.html)
   * The denominator in Taylor's series can be interpreted as the number of permutations of a set.
@@ -53,7 +53,7 @@
 19. [Seven Trees in One, by Andreas Blass](https://arxiv.org/abs/math/9405205)
   * Takes a bit of intuition gained from a Taylor series (that there is a bijection between the set of all seven-tuples of binary trees and the set of all trees) and formalizes it.
 
-## Higher Order Zippers
+## Higher order zippers
 
 20. [Higher Order Zippers, by Christophe Poucet](http://blog.poucet.org/2007/07/higher-order-zippers/)
   * This provides the intuition that second-order zippers provide O(1) splicing, but I think this is based too much on the case of Lists, and is an oversimplification in the generic case.  
